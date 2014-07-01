@@ -3,7 +3,5 @@
 .deps
 *.swp
 apue
-doc
-*.html
 autom4te.cache
 *~

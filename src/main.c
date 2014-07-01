@@ -242,6 +242,10 @@ int main(int argc, char *argv[])
   }
 
   if (argc > 0) {
+    if ( strcmp(cmd , "-f") == 0) {
+      showlib();
+      exit(0);
+    }
     while (p->figure) {
       if (strcmp(cmd , p->figure) == 0 || strcmp(cmd , p->name) == 0) {
         setenv("figure", p->figure, 1);
@@ -252,12 +256,12 @@ int main(int argc, char *argv[])
   }
   printf("Advanced Programming in the UNIX Environment 2e Demos\n");
   printf("http://www.libpix.org/apue\n\n");
-  printf("Usage: e.g. $ ./apue ls1 .\n");
-  printf("        or  $ ./ln -s apue ls1; ./ls1 .\n\n");
+  printf("Usage: $ ./apue                     # to show the list of the programs\n");
+  printf("       $ ./apue -f                  # to show the list of the functions\n");
+  printf("       $ ./apue ls1 .               # to run a program in the list\n");
+  printf("       $ ./ln -s apue ls1; ./ls1 .  # to run a program in the list\n\n");
 
   showapp();
-  printf("\n");
-  showlib();
 
   return 0;
 }
