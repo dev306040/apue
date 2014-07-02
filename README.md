@@ -8,33 +8,70 @@ Visit [http://libpix.org/apue](http://libpix.org/apue) for notes and documents.
 Bug report [yang@libpix.org](mailto:yang@libpix.org)
 
 ## Usage
-To build, just run
+In the source code path, run
 
-    $ ./configure
-    $ ./make
+    $ ./configure  
+    $ make  
 
-After that, get the list of programs
+Now, you should get the binary executable, run
 
     $ ./apue
 
-Then you can run a program, for example, ls1, by running
+to get the list of programs.
+
+    Programs:
+     ls1             1.3    List all the files in a directory
+     mycat           1.4    Copy standard input to standard output
+     getcputc        1.5    Copy standard input to standard output, using standard I/O
+     hello           1.6    Print the process ID
+     testerror       1.8    Demonstrate strerror and perror
+     uidgid          1.9    Print user ID and group ID
+     shell2          1.10   Read commands from standard input and execute them
+     conf            2.13   Print all possible sysconf and pathconf values
+    ...
+
+To run a program you want, for example, ls1, you can type
 
     $ ./apue ls1 .
 
-or use the figure number
+or you can use the figure number
 
-    $ ./apue 1.3 .
+    $ ./apue 1.1 .
 
-A better way to use is to make a symbolic
+the most convinient way is to use symbolic link
 
     $ ln -s apue ls1
+
+then you can run
+
     $ ./ls1 .
 
-Some library functions may have different version, you can specify version by environ variable
+Some library functions have multiple versions, run
+
+    $ ./apue -f
+
+to get the list of library functions.
+
+    Functions:
+     path_alloc      2.15   Dynamically allocate space for a pathname
+     open_max        2.16   Determine the number of file descriptors
+     set_fl          3.11   Turn on one or more of the file status flags for a descriptor
+     pr_exit         8.5    Print a description of the exit status
+     # system        8.22   The system function, without signal handling
+                     10.28  Correct POSIX.1 implemetation of system function
+     # sleep         10.7   Simple, incomplete implementation of sleep
+                     10.8   Another (imperfect) implementation of sleep
+                     10.29  Reliable implementation of sleep
+     ...
+
+
+Functions start with '#' are multi-version functions.  
+Use environment variable to specify the function.  
+For example, 
 
     $ system=8.22 ./apue systest1
 
-Or for the function name is ansi c library function , you can specify use the libc implementation
+if you want to use the ansi c version in libc, run
 
     $ system=ansi ./apue systest1
 
