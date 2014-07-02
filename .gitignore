@@ -4,4 +4,7 @@
 *.swp
 apue
 autom4te.cache
+Makefile
+config.log
+config.status
 *~
