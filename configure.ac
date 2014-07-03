@@ -4,7 +4,7 @@
 AC_PREREQ([2.63])
 AC_INIT([FULL-PACKAGE-NAME], [VERSION], [BUG-REPORT-ADDRESS])
 AC_CONFIG_SRCDIR([src/apue.h])
-# AC_CONFIG_HEADERS([config.h])
+AC_CONFIG_HEADERS([config.h])
 AM_INIT_AUTOMAKE([foreign -Wno-gnu])
 
 # Checks for programs.

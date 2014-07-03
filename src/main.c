@@ -92,6 +92,11 @@ int suspend2_main(int argc, char *argv[]);      /* Figure 10.23 */
 int systest2_main(int argc, char *argv[]);      /* Figure 10.26 */
 int sigtstp_main(int argc, char *argv[]);       /* Figure 10.30 */
 
+int threadid_main(int argc, char *argv[]);      /* Figure 11.2 */
+int exitstatus_main(int argc, char *argv[]);    /* Figure 11.3 */
+int badexit2_main(int argc, char *argv[]);      /* Figure 11.4 */
+int cleanup_main(int argc, char *argv[]);       /* Figure 11.5 */
+
 
 
 typedef struct {
@@ -164,9 +169,10 @@ static item_t map[] =
   { "10.23", suspend2_main, "suspend2", "Using sigsuspend to wait for a global variable to be set"},
   { "10.26", systest2_main, "systest2", "Using system to invoke the ed editor" },
   { "10.30", sigtstp_main, "sigtstp", "How to handler SIGTSTP" },
-
-
-
+  { "11.2", threadid_main, "threadid", "Printing thread IDs" },
+  { "11.3", exitstatus_main, "exitstatus", "Fetching the thread exit status" },
+  { "11.4", badexit2_main, "badexit2", "Incorrect use of pthread_exit argument" },
+  { "11.5", cleanup_main, "cleanup", "Thread cleanup handler" },
 
   { 0 , 0 , 0 }
 };
