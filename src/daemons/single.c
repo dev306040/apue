@@ -14,6 +14,10 @@
  * =============================================================
  */
 
+/**
+ * @file
+ * @brief Figure 13.6 Ensure that only one copy of a daemon is running
+ */
 #include <unistd.h>
 #include <stdlib.h>
 #include <fcntl.h>

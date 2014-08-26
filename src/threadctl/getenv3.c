@@ -14,6 +14,12 @@
  * =============================================================
  */
 
+/**
+ * @file
+ * @brief Figure 12.13 A thread-safe, compatible version of getenv
+ * 
+ */
+
 #include <limites.h>
 #include <string.h>
 #include <pthread.h>

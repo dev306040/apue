@@ -13,6 +13,11 @@
  *
  * =============================================================
  */
+
+/**
+ * @file
+ * @brief Figure 14.7 Example of deadlock detection
+ */
 #include "apue.h"
 #include <fcntl.h>
 

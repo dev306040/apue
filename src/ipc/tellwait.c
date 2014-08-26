@@ -13,6 +13,10 @@
  *
  * =============================================================
  */
+/**
+ * @file
+ * @brief Figure 15.7 Routines to let a parent and child synchronize
+ */
 
 #include "apue.h"
 

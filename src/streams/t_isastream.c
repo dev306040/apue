@@ -14,6 +14,10 @@
  * =============================================================
  */
 
+/**
+ * @file
+ * @brief Figure 14.17 Test the isastream function
+ */
 #include "apue.h"
 #include <fcntl.h>
 

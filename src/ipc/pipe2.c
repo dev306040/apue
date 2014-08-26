@@ -13,6 +13,10 @@
  *
  * =============================================================
  */
+/**
+ * @file
+ * @brief Figure 15.6 Copy file to pager program
+ */
 #include "apue.h"
 #include <sys/wait.h>
 

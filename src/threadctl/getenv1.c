@@ -14,6 +14,10 @@
  * =============================================================
  */
 
+/**
+ * @file
+ * @brief Figure 12.11 A nonreentrant version of getenv
+ */
 #include <limits.h>
 #include <string.h>
 

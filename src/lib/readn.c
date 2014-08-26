@@ -13,6 +13,11 @@
  *
  * =============================================================
  */
+
+/**
+ * @file
+ * @brief Figure 14.29a The readn function
+ */
 #include "apue.h"
 
 /* Read "n" bytes from a descriptor */

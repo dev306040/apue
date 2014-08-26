@@ -13,6 +13,10 @@
  *
  * =============================================================
  */
+/**
+ * @file
+ * @brief Figure 14.5 Function to lock or unlock a region of a file
+ */
 
 #include "apue.h"
 #include <fcntl.h>

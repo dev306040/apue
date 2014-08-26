@@ -14,6 +14,10 @@
  * =============================================================
  */
 
+/**
+ * @file
+ * @brief Figure 12.17 pthread_atfork example
+ */
 #include "apue.h"
 #include <pthread.h>
 

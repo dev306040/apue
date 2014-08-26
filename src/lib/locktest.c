@@ -14,6 +14,10 @@
  * =============================================================
  */
 
+/**
+ * @file
+ * @brief Figure 14.6 Function to test for a locking condition
+ */
 #include "apue.h"
 #include <fcntl.h>
 

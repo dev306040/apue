@@ -14,6 +14,10 @@
  * =============================================================
  */
 
+/**
+ * @file
+ * @brief Figure 12.4 Creating a thread in the detached state
+ */
 #include "apue.h"
 #include <pthread.h>
 

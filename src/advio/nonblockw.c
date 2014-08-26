@@ -14,6 +14,10 @@
  * =============================================================
  */
 
+/**
+ * @file
+ * @brief Figure 14.1 Large nonblocking write
+ */
 #include "apue.h"
 #include <errno.h>
 #include <fcntl.h>

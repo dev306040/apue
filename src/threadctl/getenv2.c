@@ -14,6 +14,10 @@
  * =============================================================
  */
 
+/**
+ * @file
+ * @brief Figure 12.12 A reentrant(thread_safe) version of getenv
+ */
 #include <string.h>
 #include <errno.h>
 #include <pthread.h>

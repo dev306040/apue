@@ -13,6 +13,10 @@
  *
  * =============================================================
  */
+/**
+ * @file
+ * @brief Figure 14.19 Copy standard input to standard output using getmsg
+ */
 
 #include "apue.h"
 #include <stropts.h>

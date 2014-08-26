@@ -14,6 +14,10 @@
  * =============================================================
  */
 
+/**
+ * @file
+ * @brief Figure 14.16 Check if descriptor is a STREAMS device
+ */
 #include <stropts.h>
 #include <unistd.h>
 

@@ -13,6 +13,11 @@
  *
  * =============================================================
  */
+/**
+ * @file
+ * @brief Figure 13.8 Alternate implementation of daemon rereading configuration files
+ */
+
 
 #include "apue.h"
 #include <syslog.h>

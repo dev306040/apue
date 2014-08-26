@@ -14,6 +14,11 @@
  * =============================================================
  */
 
+/**
+ * @file
+ * @brief Figure 13.1 Initialize a daemon process
+ *
+ */
 #include "apue.h"
 #include <syslog.h>
 #include <fcntl.h>

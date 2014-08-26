@@ -14,6 +14,10 @@
  * =============================================================
  */
 
+/**
+ * @file
+ * @brief Figure 12.16 Synchronous signal handling
+ */
 #include "apue.h"
 #include <pthread.h>
 

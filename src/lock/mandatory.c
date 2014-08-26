@@ -13,6 +13,10 @@
  *
  * =============================================================
  */
+/**
+ * @file
+ * @brief Figure 14.12 Determine wheter mandatory locking is supported
+ */
 
 #include "apue.h"
 #include <errno.h>

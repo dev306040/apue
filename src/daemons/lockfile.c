@@ -14,6 +14,11 @@
  * =============================================================
  */
 
+/**
+ * @file
+ * @brief Figure 14.9 Place a write lock on an entire file
+ */
+
 #include <unistd.h>
 #include <fcntl.h>
 

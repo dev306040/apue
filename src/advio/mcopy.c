@@ -13,6 +13,10 @@
  *
  * =============================================================
  */
+/**
+ * @file
+ * @brief Figure 14.32 Copy a file using memory-mapped I/O
+ */
 
 #include "apue.h"
 #include <fcntl.h>

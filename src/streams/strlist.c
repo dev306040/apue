@@ -14,6 +14,10 @@
  * =============================================================
  */
 
+/**
+ * @file
+ * @brief Figure 14.18 List the names of the modules on a stream
+ */
 #include "apue.h"
 #include <fcntl.h>
 #include <stropts.h>

@@ -14,6 +14,10 @@
  * =============================================================
  */
 
+/**
+ * @file
+ * @brief Figure 15.5 Send data from parent to child over a pipe
+ */
 #include "apue.h"
 
 int

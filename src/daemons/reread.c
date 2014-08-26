@@ -14,6 +14,10 @@
  * =============================================================
  */
 
+/**
+ * @file
+ * @brief Figure 13.7 Daemon rereading configuration files
+ */
 #include "apue.h"
 #include <pthread.h>
 #include <syslog.h>

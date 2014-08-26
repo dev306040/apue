@@ -13,6 +13,10 @@
  *
  * =============================================================
  */
+/**
+ * @file
+ * @brief Figure 14.29b The writen function
+ */
 #include "apue.h"
 
 ssize_t

@@ -14,6 +14,10 @@
  * =============================================================
  */
 
+/**
+ * @file
+ * @brief Figure 12.8 Using a recursive mutex
+ */
 #include "apue.h"
 #include <pthread.h>
 #include <time.h>
