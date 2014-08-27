@@ -3,7 +3,7 @@
  *
  *        Project:  apue
  *
- *       Filename:  open.h
+ *       Filename:  openservd1.h
  *
  *         Editor:  vim :set et ts=2 sts=2 sw=2
  *
@@ -13,10 +13,19 @@
  *
  * =============================================================
  */
+/**
+ * @file
+ * @brief Figure 17.29 The opend.h header, version 1
+ */
+
 #include "apue.h"
 #include <errno.h>
 
 #define CL_OPEN "open" /* client's request for server */
 
-int csopen(char *, int);
+extern char errmsg[]; /* error message string to return to client */
+extern int oflag; /* open() flag: 0_xxx ... */
+extern char *pathname; /* of file to open() for client */
 
+int cli_args(int, char **);
+void request(char *, int, int);

@@ -14,6 +14,10 @@
  * =============================================================
  */
 
+/**
+ * @file
+ * @brief Figure 17.27 The client main function, version 1
+ */
 #include "open.h"
 #include <fcntl.h>
 

@@ -13,6 +13,10 @@
  *
  * =============================================================
  */
+/**
+ * @file
+ * @brief Figure 17.28 The csopen function, version 1
+ */
 
 #include "open.h"
 #include <sys/uio.h>  /*  struct iovec */
